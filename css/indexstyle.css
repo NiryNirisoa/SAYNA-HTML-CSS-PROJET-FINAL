@@ -1,0 +1,109 @@
+.cercle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: white;
+    margin-left: 35%;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1900px;
+    height: 560px;
+}
+
+.effect:hover {
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
+
+.bg-o {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.border {
+    border-style: none;
+    border-radius: 50%;
+}
+
+.cercle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: white;
+    margin-left: 35%;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.bg-image {
+    padding-top: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1900px;
+    height: 560px;
+}
+
+.border {
+    border-style: none;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: white;
+    color: #d35649;
+}
+
+.mrn {
+    margin-left: -150px;
+}
+
+.ralign {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.locatiun {
+    padding-left: 50;
+    padding-right: 50;
+}
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 230px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
+    background-color: white;
+}
+
+.btn-lg {
+    background-color: #509bd7;
+    border-color: #509bd7;
+}
+
+.alignl {
+    text-align: right;
+}
+
+@media (max-width:720px) {
+    .resp {
+        display: block;
+        flex-direction: column;
+    }
+}
